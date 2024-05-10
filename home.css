@@ -1,0 +1,166 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: sticky;
+    border: none;
+    height: 12vh;
+    width: 100%;
+    background-color: rgba(198, 118, 112, 0.582);
+    box-shadow: 3px 3px rgb(236, 236, 235);
+}
+.navbar ul{
+    border: none;
+    display: flex;
+    list-style: none;
+    position: relative;
+    top:-90px;
+    justify-content: center;
+}
+li{
+    border: none;
+    margin: 0px 70px 0px 70px;
+}
+.bgpic{
+    width: 100%;
+    height: 700px;
+}
+.title{
+    position: absolute;
+    top: 250px;
+    left: 260px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 4px rgba(0, 128, 0, 0.599);
+}
+.desc{
+    position: absolute;
+    top: 350px;
+    left: 180px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    color: rgba(243, 250, 248, 0.942);
+    text-shadow: 2px 2px black;
+}
+.title:hover{
+    color: rgba(7, 136, 56, 0);
+}
+.link:active,.link:link,.link:visited{
+    color: rgba(85, 19, 19, 0.704);
+}
+.link{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.bar{
+    border: none;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.308);
+    position: relative;
+    top: -5px;
+}
+.hc{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgba(162, 28, 28, 0.58);
+    text-shadow: 2px 2px rgb(240, 234, 234);
+    top:65px;left: 50px;
+}
+.hc1{
+     position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgba(76, 9, 9, 0.58);
+    text-shadow: 2px 2px rgb(240, 234, 234);
+    top:110px;left: 50px;
+}
+.pd1{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgba(162, 28, 28, 0.58);
+    text-shadow: 2px 2px rgb(240, 234, 234);
+    top:70px;left: 500px;
+}
+.pd2{
+     position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgba(76, 9, 9, 0.58);
+    text-shadow: 2px 2px rgb(240, 234, 234);
+    top:110px;left: 500px;
+}
+.form{
+    border: none;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    background-color: rgba(54, 161, 27, 0.292);
+}
+/* .abtus{
+    animation-name: abt;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes abt {
+ from {transform: scalex(1.0);}
+            to{transform: scalex(1.2);}
+} */
+.gallary{
+    width: 100%;
+    border: none;
+    height: 200px;
+}
+.atus{
+    border: none;
+    height: 400px;
+    width: 700px;
+    background-color: rgba(237, 133, 168, 0.337);
+    margin-left: 320px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(218, 7, 7, 0.726);
+}
+.services{
+     border: none;
+    height: 400px;
+    width: 900px;
+    top:10px;
+    background-color: rgba(237, 133, 168, 0.472);
+    margin-left: 230px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(218, 7, 7, 0.726);
+}
+.services:hover{
+    border: none;
+    background-color: #dc848480;
+}
+td{
+    border: none;
+    padding: 5px;
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+label{
+    color: navy;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ body{
+        background-image: url("https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747777_1280.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        
+    }
